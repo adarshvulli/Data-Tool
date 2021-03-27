@@ -47,5 +47,118 @@ h2 span{
  height: 100px;
  background:#292727;
  box-shadow:10px 10px 50px ;
+ z-index: -1; 
+}
+navigation-wrapper {
+ position: relative;
+}
 
+.navigation-button {
+ will-change: transform;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ position: fixed;
+ z-index: 1;
+ top: 40px;
+ right: 100px;
+ background: transparent;
+ cursor: pointer;
+ color: white;
+}
+
+.navigation-button .fa {
+ border: 2px solid white;
+ border-radius: 3px;
+ padding: 10px;
+ color: white;
+}
+
+.navigation-menu ul li {
+ list-style: none;
+ font-family: impact;
+ font-weight: 300;
+ color: hsl(0, 0%, 70%);
+}
+
+.navigation-menu {
+ content: '';
+ position: fixed;
+ top: 0;
+ right: 0;
+ width: 40%;
+ /* background: rgb(148, 151, 155); */
+ background: #5f5d5d;
+ height: 100%;
+ transform: skewX(0deg) translate(100%, 0);
+ transform-origin: top right;
+ transition: all .2s ease-in;
+ /* z-index: -1;  */
+ z-index: 1000;
+}
+
+.navigation-menu ul {
+ transform: skewX(-8deg);
+ transform-origin: top left;
+ position: fixed;
+ right: 120px;
+ top: 120px;
+ width: 350px;
+ text-align: right;
+}
+
+.navigation-menu ul li {
+ position: relative;
+ z-index: 999;
+ font-size: 20px;
+ font-family: "Lato", sans-serif;
+ color: hsl(0, 0%, 10%);
+ line-height: 64px;
+}
+
+.navigation-menu ul li a {
+ border: none;
+ color: hsl(0, 0%, 10%);
+ text-decoration: none;
+}
+
+.navigation-menu.active {
+ transform: skewX(8deg) translate(0, 0);
+}
+
+.navigation-menu li {
+ opacity: 0;
+ transform: translate(0, 10px);
+ transition: all .0s ease-in .3s;
+}
+
+.navigation-menu.active li {
+ opacity: 1;
+ transform: translate(0, 0);
+ transition: all .2s ease-in 0s;
+}
+
+.navigation-menu.active li:nth-child(1) {
+ transition-delay: .3s;
+}
+
+.navigation-menu.active li:nth-child(2) {
+ transition-delay: .4s;
+}
+
+.navigation-menu.active li:nth-child(3) {
+ transition-delay: .5s;
+}
+
+.navigation-menu.active li:nth-child(4) {
+ transition-delay: .6s;
+}
+
+.navigation-menu.active li:nth-child(5) {
+ transition-delay: .7s;
+}
+
+.navigation-menu.active li:nth-child(6) {
+ transition-delay: .8s;
 }
