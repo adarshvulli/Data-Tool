@@ -113,13 +113,13 @@ navigation-wrapper {
  z-index: 999;
  font-size: 20px;
  font-family: "Lato", sans-serif;
- color: hsl(0, 0%, 10%);
+ color: hsl(0, 0%, 7%);
  line-height: 64px;
 }
 
 .navigation-menu ul li a {
  border: none;
- color: hsl(0, 0%, 10%);
+ color: hsl(0, 10%, 88%);
  text-decoration: none;
 }
 
@@ -161,4 +161,7 @@ navigation-wrapper {
 
 .navigation-menu.active li:nth-child(6) {
  transition-delay: .8s;
+}
+.navigation-menu.active li:nth-child(7) {
+ transition-delay: .9s;
 }
