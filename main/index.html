@@ -7,7 +7,7 @@
  <link rel="stylesheet" href="style.css">
  <title>Survey</title>
 </head>
-<body>
+<body  onload="myFunction()" style="margin:0;">
 
  <div class="navigation-wrapper">
   <div class="navigation-button">
@@ -84,7 +84,18 @@
 
     win.addEventListener('click', closeMenu, false);
 </script>
+<script>
+ var myVar;
 
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
 </body>
 </body>
 </html>
