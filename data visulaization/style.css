@@ -1,0 +1,15 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background: linear-gradient(90deg, rgb(33, 36, 37) 6%, rgb(44, 43, 44) 29%, rgb(24, 25, 26) 84%);
+ font-family: 'Roboto Condensed', sans-serif;
+ /* overflow: hidden; */
+}
+.title-box {
+ text-align: center;
+ margin: 70px auto 50px;
+ color: white;
+}
