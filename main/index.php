@@ -7,21 +7,21 @@
  <link rel="stylesheet" href="style.css">
  <title>Survey</title>
 </head>
-<body  onload="myFunction()" style="margin:0;">
+<body>
 
  <div class="navigation-wrapper">
   <div class="navigation-button">
       <i class="fa fa-bars"></i>
-
+        
   </div>
 
   <div class="navigation-menu">
       <ul>
           <br><br>
           <li><a href="#">HOME</a></li>
-          <li><a href="#">FORM</a></li>
-          <li><a href="#">VIEW DATA</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="../form/index.php">FORM</a></li>
+          <li><a href="../form/data.php">VIEW DATA</a></li>
+          <li><a href="../form/contact.php">CONTACT</a></li>
           <li><a href="../team/index.html">TEAM</a></li>
       </ul>
   </div>
@@ -84,18 +84,7 @@
 
     win.addEventListener('click', closeMenu, false);
 </script>
-<script>
- var myVar;
 
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-</script>
 </body>
 </body>
 </html>
