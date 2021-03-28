@@ -1,4 +1,5 @@
 # Data-analytics-for-health-science 🏥 👩‍⚕️ 👨‍⚕️
+![image](https://github.com/adarshvulli/data-analytics-for-health-science/blob/main/images/1.jpg)
 
 ## Description:
 We created an interactive and dynamic web app for the data collection as requested by the company. The data to be taken is a mixture of text and integer data overall. This ranges from the name of the facility, its location, the number of students, and publication so far the laboratory achieved. We even added the option to view data displayed in a table format. And finally, the contact page where a person can reach us for any confirmation or questions.
