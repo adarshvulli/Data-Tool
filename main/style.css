@@ -165,3 +165,38 @@ navigation-wrapper {
 .navigation-menu.active li:nth-child(7) {
  transition-delay: .9s;
 }
+.button {
+ font-family: 'Roboto Condensed', sans-serif;
+ font-weight: normal;
+ font-size: 12px;
+ margin-top: 150px;
+ z-index: 1000;
+}
+
+.btn1:hover {
+ text-decoration: none;
+ color: white;
+}
+
+.btn2:hover {
+ text-decoration: none;
+ color: black;
+}
+
+.btn1 {
+ padding: 12px 25px;
+ background: #f20c4a;
+ text-decoration: none;
+ color: white;
+ border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
+}
+
+.btn2 {
+ padding: 12px 25px;
+ background: #f4f6f8;
+ text-decoration: none;
+ color: #000;
+ border-top-right-radius: 20px;
+ border-bottom-right-radius: 20px;
+}
