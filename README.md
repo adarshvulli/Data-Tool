@@ -1,7 +1,7 @@
 # Data-analytics-for-health-science 🏥 👩‍⚕️ 👨‍⚕️
 
-## Abstract:
-We created an interactive and dynamic web app for the data collection as requested by the company. the data to be taken is a mixture of text and integer data over all, which range from the name of the facility its location then the number of students and publication so far the laboratory achived.. we even added the option to view data which will be displayed ina dable format.And finally the contact page where a person can reach to us for any conformation or questions
+## Description:
+We created an interactive and dynamic web app for the data collection as requested by the company. The data to be taken is a mixture of text and integer data overall. This ranges from the name of the facility, its location, the number of students, and publication so far the laboratory achieved. We even added the option to view data displayed in a table format. And finally, the contact page where a person can reach us for any confirmation or questions.
 
 ## Tech Stack used:
 - Frontend: HTML , CSS , JavaScript
@@ -9,10 +9,10 @@ We created an interactive and dynamic web app for the data collection as request
 - Deployment : AWS
 
 ## Challenges we ran Into
-- Adding the animation effect was bit difficut to us ,since both of us are first time user to JavaScript we learned and then tried to implement the animation effects.
-- Diplaying the data in table and making the page responsive was bit difficult in the initial stages.
+- Adding the animation effect was difficult for us since both of us are first-time users of JavaScript. We learned and then tried to implement the animation effects.
+- Displaying the data in a table and making the page responsive was difficult in the initial stages.
 
 ## Future Scope of development:
-- We would like to add visulaisation tools to display the information instead of displaying the data in tabular manner
+- We would like to add visualization tools to display the information instead of displaying the data in a tabular manner
 - Add options of changing the responses so far generated
-- Making it a convinet and userfriendly app 
+- Making it a convenient and userfriendly app 
