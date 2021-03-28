@@ -9,10 +9,10 @@ We created an interactive and dynamic web app for the data collection as request
 - Deployment : AWS
 
 ## Challenges we ran Into
-- Adding the animation effect was bit difficut to us ,since both of us are first time user to java script we learned and then trued to implement the animation effects.
+- Adding the animation effect was bit difficut to us ,since both of us are first time user to JavaScript we learned and then tried to implement the animation effects.
 - Diplaying the data in table and making the page responsive was bit difficult in the initial stages.
 
 ## Future Scope of development:
-- We would like to add visulaisation tools to display the information insted of displaying th data in tabular manner
+- We would like to add visulaisation tools to display the information instead of displaying the data in tabular manner
 - Add options of changing the responses so far generated
 - Making it a convinet and userfriendly app 
