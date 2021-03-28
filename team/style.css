@@ -11,7 +11,7 @@ body {
 
 .title-box {
  text-align: center;
- margin: 70px auto 50px;
+ margin: 40px auto 10px;
  color: white;
 }
 
@@ -21,6 +21,7 @@ body {
  background: #fff;
  border-radius: 4px;
  margin-bottom: 30px;
+ margin-top: 30px;
  /* box-shadow:   0px 0px 20px #ff00c8,
 inset 0px 0px 20px #00ccff,
 0px 0px 60px #ff00c8,
@@ -33,7 +34,7 @@ inset 0px 0px 60px #ff00c8; */
 .profile-box img {
  width: 100px;
  position: absolute;
- top: 30px;
+ top: 40px;
  right: 20px;
  border-radius: 4px;
  transition: .5s;
@@ -72,7 +73,7 @@ small {
  display: flex;
  justify-content: space-between;
  flex-wrap: wrap;
- width: 85%;
+ width: 55%;
  margin: auto;
 }
 
