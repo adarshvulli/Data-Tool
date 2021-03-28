@@ -10,18 +10,19 @@ body {
 }
 
 .title-box {
-    text-align: center;
-    margin: 70px auto 50px;
-    color: white;
+ text-align: center;
+ margin: 40px auto 10px;
+ color: white;
 }
 
 .profile-box {
-    width: 240px;
-    height: 380px;
-    background: #fff;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    /* box-shadow:   0px 0px 20px #ff00c8,
+ width: 240px;
+ height: 380px;
+ background: #fff;
+ border-radius: 4px;
+ margin-bottom: 30px;
+ margin-top: 30px;
+ /* box-shadow:   0px 0px 20px #ff00c8,
 inset 0px 0px 20px #00ccff,
 0px 0px 60px #ff00c8,
 inset 0px 0px 60px #ff00c8; */
@@ -31,12 +32,12 @@ inset 0px 0px 60px #ff00c8; */
 }
 
 .profile-box img {
-    width: 100px;
-    position: absolute;
-    top: 30px;
-    right: 20px;
-    border-radius: 4px;
-    transition: .5s;
+ width: 100px;
+ position: absolute;
+ top: 40px;
+ right: 20px;
+ border-radius: 4px;
+ transition: .5s;
 }
 
 .profile-box h4 {
@@ -69,11 +70,11 @@ small {
 }
 
 .team-row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 65%;
-    margin: auto;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ width: 65%;
+ margin: auto;
 }
 
 .profile-box img:hover {
