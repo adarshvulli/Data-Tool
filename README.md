@@ -1,10 +1,10 @@
 # Data-analytics-for-health-science 🏥 👩‍⚕️ 👨‍⚕️
 
 ## Abstract:
-We created an inetactive and dynamic web app for the data collection as requested by the company. the data to be taken is a mixture of text and integer data over all, which range from the name of the facility its location then the number of students and publication so far the laboratory achived.. we even added the option to view data which will be displayed ina dable format.And finally the contact page where a person can reach to us for any conformation or questions
+We created an interactive and dynamic web app for the data collection as requested by the company. the data to be taken is a mixture of text and integer data over all, which range from the name of the facility its location then the number of students and publication so far the laboratory achived.. we even added the option to view data which will be displayed ina dable format.And finally the contact page where a person can reach to us for any conformation or questions
 
 ## Tech Stack used:
-- Frontend: Html,Css, Java Script
+- Frontend: HTML , CSS , JavaScript
 - Backend : php
 - Deployment : AWS
 
