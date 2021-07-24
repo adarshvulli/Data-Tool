@@ -1,4 +1,4 @@
-# Data-analytics-for-health-science 🏥 👩‍⚕️ 👨‍⚕️
+# Data-Tool 🏥 👩‍⚕️ 👨‍⚕️
 ![image](https://github.com/adarshvulli/data-analytics-for-health-science/blob/main/images/1.jpg)
 
 ## Description:
